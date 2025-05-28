@@ -1,4 +1,8 @@
-<category name="Bluebell" colour="#a2a2d0">
-    <label text="Bluebell"/>
+<xml>
+    <category name="Bluebell" colour="#a2a2d0">
+        <label text="Bluebell"/>
         <block type="import_bluebell" />
-</category>
+        <block type="aspirate" />
+        <block type="dispense" />
+    </category>
+</xml>
