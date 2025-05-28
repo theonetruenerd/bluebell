@@ -1,4 +1,4 @@
-<category name="Bluebell" colour="#a2a2d0" css-icon="customIcon fad fa-car">
+<category name="Bluebell" colour="#a2a2d0">
     <label text="Bluebell" web-class="myLabelStyle" />
-    <block type="import_bluebell" />
+        <block type="import_bluebell" />
 </category>
