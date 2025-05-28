@@ -5,8 +5,10 @@ class bluebell:
         pass
 
     def aspirate(self, volume):
+        print(f"Aspirating {volume}uL")
         pass
 
     def dispense(self, volume):
+        print(f"Dispensing {volume}uL")
         pass
 
