@@ -1,3 +1,6 @@
 {
-  "library": "bluebell.py"
+    "mode": "python",
+    "code": [
+        "bluebell.py"
+    ]
 }
