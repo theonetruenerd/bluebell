@@ -1,4 +1,4 @@
 <category name="Bluebell" colour="#a2a2d0">
-    <label text="Bluebell" web-class="myLabelStyle" />
+    <label text="Bluebell"/>
         <block type="import_bluebell" />
 </category>
