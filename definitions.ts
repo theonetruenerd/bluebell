@@ -8,7 +8,7 @@ Blockly.Blocks['import_bluebell'] = {
         this.setColour(bluebellColour);
         this.setTooltip("Imports bluebell library.");
         this.setHelpUri("");
-    },
+    }
 };
 
 Blockly.Blocks['aspirate'] = {
@@ -19,7 +19,7 @@ Blockly.Blocks['aspirate'] = {
         this.setColour(bluebellColour);
         this.setTooltip("Aspirates a set volume");
         this.setHelpUri("");
-    },
+    }
 };
 
 Blockly.Blocks['dispense'] = {
@@ -30,5 +30,5 @@ Blockly.Blocks['dispense'] = {
         this.setColour(bluebellColour);
         this.setTooltip("Dispenses a set volume");
         this.setHelpUri("");
-    },
+    }
 };
