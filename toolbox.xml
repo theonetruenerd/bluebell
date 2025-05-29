@@ -6,25 +6,26 @@
     <block type="distribute_liquid">
         <value name="parameters">
             <shadow type="parameters">
+                <mutation color="#4a4b5f" items="2" limit="2" inputType="string" />
                 <value name="volume">
-                    <block type="volume">
-                        <field name="volume">Volume</field>
-                    </block>
+                    <shadow type="inline_string">
+                        <field name="value">Volume</field>
+                    </shadow>
                 </value>
                 <value name="source">
-                    <block type="source">
-                        <field name="source">Source</field>
-                    </block>
+                    <shadow type="inline_string">
+                        <field name="value">Source</field>
+                    </shadow>
                 </value>
                 <value name="destination">
-                    <block type="destination">
-                        <field name="destination">Destination</field>
-                    </block>
+                    <shadow type="inline_string">
+                        <field name="value">Destination</field>
+                    </shadow>
                 </value>
                 <value name="liquid_class">
-                    <block type="liquid_class">
-                        <field name="liquid_class">Liquid Class</field>
-                    </block>
+                    <shadow type="inline_string">
+                        <field name="value">Liquid Class</field>
+                    </shadow>
                 </value>
             </shadow>
         </value>
