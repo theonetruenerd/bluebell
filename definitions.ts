@@ -33,20 +33,16 @@ Blockly.Blocks['dispense'] = {
 Blockly.Blocks['distribute_liquid'] = {
     init: function () {
         this.appendDummyInput()
-            .appendField("Distribute ");
-        this.appendValueInput("volume");
-        this.appendDummyInput()
-            .appendField("uL of liquid from ");
-        this.appendValueInput("source");
-        this.appendDummyInput()
-            .appendField(" to ");
-        this.appendValueInput("destination");
-        this.appendDummyInput()
-            .appendField(" with liquid class ");
-        this.appendValueInput("liquid class");
+            .appendField("Distribute ")
+            .appendField(new Blockly.FieldVariable("volume"), "volume")
+            .appendField("uL of liquid from ")
+            .appendField(new Blockly.FieldVariable("source"), "source")
+            .appendField(" to ")
+            .appendField(new Blockly.FieldVariable("destination"), "destination")
+            .appendField(" with liquid class ")
+            .appendField(new Blockly.FieldVariable("liquid_class"), "liquid class");
         this.setPreviousStatement(true, null);
         this.setNextStatement(true, null);
-        this.setInputsInput(true);
         this.setColour(bluebellColour);
         this.setTooltip("Distributes a set volume");
     }
