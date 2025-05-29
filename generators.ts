@@ -18,6 +18,6 @@ Blockly.Python['distribute_liquid'] = function (block) {
     const source = Blockly.Python.nameDB_.getName(block.getFieldValue('source'), Blockly.VARIABLE_CATEGORY_NAME);
     const destination = Blockly.Python.nameDB_.getName(block.getFieldValue('destination'), Blockly.VARIABLE_CATEGORY_NAME);
     const liquid_class = Blockly.Python.nameDB_.getName(block.getFieldValue('liquid_class'), Blockly.VARIABLE_CATEGORY_NAME);
-    const code = `print(f\'Distributing ${volume}uL from ${source} to ${destination} using liquid class ${liquid_class}\')\n`
+    const code = `print(\'Distributing ${volume}uL from ${source} to ${destination} using liquid class ${liquid_class}\')\n`
     return code
 };
