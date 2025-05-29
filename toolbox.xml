@@ -9,7 +9,7 @@
             <shadow type="parameters">
                 <mutation color="#4a4b5f" items="1" limit="1" inputType="float" />
                 <value name="input_1">
-                    <block type="inline_float">
+                    <block type="float">
                         <field name="volume">Volume</field>
                     </block>
                 </value>
