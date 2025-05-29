@@ -3,4 +3,30 @@
     <block type="import_bluebell" />
     <block type="aspirate" />
     <block type="dispense" />
+    <block type="distribute_liquid">
+        <value name="parameters">
+            <shadow type="parameters">
+                <value name="volume">
+                    <block type="volume">
+                        <field name="volume">Volume</field>
+                    </block>
+                </value>
+                <value name="source">
+                    <block type="source">
+                        <field name="source">Source</field>
+                    </block>
+                </value>
+                <value name="destination">
+                    <block type="destination">
+                        <field name="destination">Destination</field>
+                    </block>
+                </value>
+                <value name="liquid_class">
+                    <block type="liquid_class">
+                        <field name="liquid_class">Liquid Class</field>
+                    </block>
+                </value>
+            </shadow>
+        </value>
+    </block>
 </category>
