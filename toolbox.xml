@@ -6,7 +6,7 @@
 
     <block type="distribute_liquid">
         <value name="volume">
-            <shadow type="volume">
+            <shadow type="parameters">
                 <mutation color="#4a4b5f" items="1" limit="1" inputType="float" />
                 <value name="input_1">
                     <block type="inline_string">
@@ -16,7 +16,7 @@
             </shadow>
         </value>
         <value name="source">
-            <shadow type="source">
+            <shadow type="parameters">
                 <mutation color="#4a4b5f" items="1" limit="1" inputType="string" />
                 <value name="input_2">
                     <block type="inline_string">
