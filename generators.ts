@@ -9,6 +9,6 @@ Blockly.Python['aspirate'] = function (block) {
 };
 
 Blockly.Python['dispense'] = function (block) {
-    const code = 'print(\"Dispense\")';
+    const code = 'print(\"Dispensing\")';
     return code
 };
