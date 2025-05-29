@@ -34,10 +34,12 @@ Blockly.Blocks['distribute_liquid'] = {
     init: function() {
       this.appendDummyInput()
           .appendField("Distribute ");
-      this.appendValueInput("parameters")
+      this.appendValueInput("volume")
           .setCheck(null);
       this.appendDummyInput()
           .appendField("uL of liquid");
+      this.appendValueInput("source")
+          .setCheck(null);
       this.setInputsInline(false);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
