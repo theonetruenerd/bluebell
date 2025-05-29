@@ -38,7 +38,7 @@ Blockly.Blocks['distribute_liquid'] = {
           .setCheck(null);
       this.appendDummyInput()
           .appendField("uL of liquid");
-      this.setInputsInline(true);
+      this.setInputsInline(false);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(bluebellColour);
