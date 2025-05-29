@@ -14,7 +14,7 @@ Blockly.Python['dispense'] = function (block) {
 };
 
 Blockly.Python['distribute_liquid'] = function (block) {
-    const parameters = Blockly.Python.valueToCode(block, 'parameters', 0);
+    const parameters = Blockly.Python.valueToCode(block, 'parameters', 3);
     const code = `print(\'${parameters}\')\n`
     return code
 };
