@@ -1,4 +1,4 @@
-<category name="Bluebell" colour="#a2a2d0" icon="customIcon fa-flask">
+<category name="Bluebell" colour="#a2a2d0" css-icon="customIcon fa-flask">
     <label text="Bluebell"/>
     <block type="import_bluebell" />
     <block type="aspirate" />
