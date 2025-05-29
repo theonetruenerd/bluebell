@@ -7,22 +7,22 @@
         <value name="parameters">
             <shadow type="parameters">
                 <value name="volume">
-                    <block type="volume">
+                    <block type="inline_string">
                         <field name="volume">Volume</field>
                     </block>
                 </value>
                 <value name="source">
-                    <block type="source">
+                    <block type="inline_string">
                         <field name="source">Source</field>
                     </block>
                 </value>
                 <value name="destination">
-                    <block type="destination">
+                    <block type="inline_string">
                         <field name="destination">Destination</field>
                     </block>
                 </value>
                 <value name="liquid_class">
-                    <block type="liquid_class">
+                    <block type="inline_string">
                         <field name="liquid_class">Liquid Class</field>
                     </block>
                 </value>
