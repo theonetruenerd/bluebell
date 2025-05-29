@@ -4,12 +4,12 @@ Blockly.Python['import_bluebell'] = function (block) {
 };
 
 Blockly.Python['aspirate'] = function (block) {
-    const code = 'print(\"Aspirating\")';
+    const code = 'print(\"Aspirating\")\n';
     return code
 };
 
 Blockly.Python['dispense'] = function (block) {
-    const code = 'print(\"Dispensing\")';
+    const code = 'print(\"Dispensing\")\n';
     return code
 };
 
@@ -18,6 +18,6 @@ Blockly.Python['distribute_liquid'] = function (block) {
     const source = Blockly.Python.nameDB_.getName(block.getFieldValue('source'), Blockly.VARIABLE_CATEGORY_NAME);
     const destination = Blockly.Python.nameDB_.getName(block.getFieldValue('destination'), Blockly.VARIABLE_CATEGORY_NAME);
     const liquid_class = Blockly.Python.nameDB_.getName(block.getFieldValue('liquid_class'), Blockly.VARIABLE_CATEGORY_NAME);
-    const code = `print(f\'Distributing ${volume}uL from ${source} to ${destination} using liquid class ${liquid_class}\')`
+    const code = `print(f\'Distributing ${volume}uL from ${source} to ${destination} using liquid class ${liquid_class}\')\n`
     return code
 };
