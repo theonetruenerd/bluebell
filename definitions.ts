@@ -32,15 +32,15 @@ Blockly.Blocks['dispense'] = {
 
 Blockly.Blocks['distribute_liquid'] = {
     init: function() {
-      this.appendDummyInput()
+      this.appendEndRowInput()
           .appendField("Distribute ");
       this.appendValueInput("volume")
-          .setCheck(null);
+          .setCheck('Float','Integer');
       this.appendDummyInput()
           .appendField("uL of liquid from");
       this.appendValueInput("source")
           .setCheck(null);
-      this.setInputsInline(true);
+      this.setInputsExternal(true);
       this.setPreviousStatement(true, null);
       this.setNextStatement(true, null);
       this.setColour(bluebellColour);
